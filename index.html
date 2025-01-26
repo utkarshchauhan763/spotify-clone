@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the Spotify clone">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="whole">
+        <div class="nav_bar">
+            <div class="logo"><img src="spotifylogo.png" alt="spotifylogo"></div>
+            <div class="home">
+                <button class='btn'><img src="home.png" alt="" width="20px"></button>
+                <div class="search">
+                    <button class="btn1"><img src="search_logo.jpg" width="23px" class="src"></button>
+                    <input type="text" style="background-color: #272222;" placeholder="What do you want to play ?">
+                    <p style="color: white;">|</p>
+                    <button class="btn1"><img src="Browse.png" alt="" width="24px" class="src"></button>
+                </div>
+            </div>
+            <div class="sign_login">
+                <button class="signup">Sign up</button>
+                <button class="login">Login</button>
+            </div>
+        </div>
+        <div class="main">
+            <div class="left">
+                <div class="first">
+                    <div class="combo">
+                        <img src="library.png" alt="" width="30px">
+                        <p>Your Library</p>
+                    </div>
+                    <img src="add.png" alt="" class="add">
+                </div>
+                <div class="second">
+                    <h2>Create your first playlist</h2>
+                    <h3>it's easy,we will help you</h3>
+                    <button>Create Playlist</button>
+                </div>
+                <div class="third">
+                    <h2>Let's find some podcasts to follows</h2>
+                    <h3>We'll keep you updated on new episodes</h3>
+                    <button>Browse Podcast</button>
+                </div>
+                <div class="fourth">
+                    <p>Legal</p>
+                    <p>Safety & Privacy Center</p>
+                    <p>Privacy Ploicies</p>
+                    <p>Cookies</p>
+                    <p>About Ads</p>
+                    <p>Accessibility</p>
+
+                </div>
+                <div class="fifth">
+                    <a> <img src="English.png" alt="hghj" class="src" width="30px"></a>
+                    <h2>English</h2>
+                </div>
+
+                <div class="play_audio">
+                    <div id = "music" class="music"></div>
+                    <div id = "music_name" class="music_name"></div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="right_body">
+                    <div class="r_1">
+                        <h1>Popular Artists</h1>
+                        <h2>Show all</h2>
+                    </div>
+                    <div class="r_2">
+                        <div class="cont1">
+                            <div class="artist" style="background-image: url(A_1.png);">
+                                <div class="intro">
+                                    <h3>Pritam</h3>
+                                    <h5>Artists</h5>
+                                </div>
+                            </div>
+                            <div class="artist" style="background-image: url(A_2.png);">
+    
+                                <div class="intro">
+                                    <h3>Arjit Singh</h3>
+                                    <h5>Artists</h5>
+                                </div>
+                            </div>
+                            <div class="artist" style="background-image: url(A_3.png);">
+                                <div class="intro">
+                                    <h3>Sachin jighar</h3>
+                                    <h5>Artists</h5>
+                                </div>
+                            </div>
+                            <div class="artist" style="background-image: url(A_4.png);">
+                                <div class="intro">
+                                    <h3>A.R.Rheman</h3>
+                                    <h5>Artists</h5>
+                                </div>
+                            </div>
+                            <div class="artist" style="background-image: url(A_5.png);">
+    
+                                <div class="intro">
+                                    <h3>Vishal-Sekhar</h3>
+                                    <h5>Artists</h5>
+                                </div>
+                            </div>
+                            <div class="artist" style="background-image: url(A_6.png);">
+                                <div class="intro">
+                                    <h3>Atif-Aslam</h3>
+                                    <h5>Artists</h5>
+                                </div>
+                            </div>
+                            <!-- <div class="artist"></div> -->
+    
+                        </div>
+                    </div>
+    
+                    <div class="r_3">
+                        <div class="r_1">
+                            <h1>Popular Albums & Singers</h1>
+                            
+                        </div>
+                        <div class="cont2">
+                            <div class="artist" style="background-image: url(B_1.png);" data-audio="brownrang.mp3">
+                                <div class="intro">
+                                    <h3>Brown Rang</h3>
+                                    <h6>Yo Yo Honey Singh</h6>
+                                </div>
+                            </div>
+                            <div class="artist" style="background-image: url(B_2.png);" data-audio="ashiqui.mp3">
+    
+                                <div class="intro">
+                                    <h3>Aashiqui 2</h3>
+                                    <h5>Mithoon,AnkitTiwari,Jeet Ganguli</h5>
+                                </div>
+                            </div>
+    
+                            <div class="artist" style="background-image: url(B_3.png);" data-audio="Badtameez.mp3">
+                                <div class="intro">
+                                    <h3>Yeh Jawani Hai Diwani</h3>
+                                    <h5>Pritam</h5>
+                                </div>
+                            </div>
+                            <div class="artist" style="background-image: url(B_4.jpg);" data-audio= "Alone.mp3">
+                                <div class="intro">
+                                    <h3>Who (Remixes)</h3>
+                                    <h5>Jimin</h5>
+                                </div>
+                            </div>
+    
+                            <div class="artist" style="background-image: url(B_5.jpg);" data-audio="Sky.mp3">
+    
+                                <div class="intro">
+                                    <h3>Making-Memories</h3>
+                                    <h5>Karan-Aujla,Ikky</h5>
+                                </div>
+                            </div>
+                            <div class="artist" style="background-image: url(B_6.png);" data-audio="johtum_mereho.mp3">
+                                <div class="intro">
+                                    <h3>Jo tum mere Ho</h3>
+                                    <h5>Anuv Jain</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="r_4">
+                        <div class="r_1">
+                            <h1>Featured Charts</h1>
+                        </div>
+                        <div class="cont4">
+                            <div class="artist" style="background-image: url('F_1.png');">
+                                <div class="text">
+                                </div>
+                                <div class="intro">
+                                    <h5>Your weekely update of the most played</h5>
+                                </div>
+                            </div>
+                            <div class="artist" style="background-image: url('F_2.png');">
+    
+                                <div class="intro">
+                                    <h5>Your weekely update of the most played</h5>
+                                </div>
+                            </div>
+                            <div class="artist" style="background-image: url('F_3.png');">
+                                <div class="intro">
+                                    <h5>Your weekely update of the most played</h5>
+                                </div>
+                            </div>
+                            <div class="artist" style="background-image: url('F_4.png');">
+                                <div class="intro">
+                                    <h5>Your weekely update of the most played</h5>
+                                </div>
+                            </div>
+                            <div class="artist" style="background-image: url('F_5.png');">
+                                <div class="intro">
+                                    <h5>Your weekely update of the most played</h5>
+                                </div>
+                            </div>
+                            <div class="artist" style="background-image: url('F_6.png');">
+                                <div class="intro">
+                                    <h5>Your weekely update of the most played</h5>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="play">
+                    <div class="play_btn">
+                        <button><img src="Play_back.png" alt="Backward" class="left_btn" ></button>
+                        <button><img src="Play.png" alt="" class="center_btn"></button>
+                        <button><img src="Play_right.png" alt="" class="right_btn"></button>
+                    </div>
+                </div>
+                <audio id="audio-player"></audio>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
